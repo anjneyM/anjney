@@ -18,6 +18,7 @@
         <button class="btn btn-default target" id="target3">#target3</button>
       </div>
     </div>
+    <title>Anjney's GitHub Page</title>
     <div class="col-xs-6">
       <h4>#right-well</h4>
       <div class="well" id="right-well">
