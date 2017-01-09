@@ -2,6 +2,8 @@
   $(document).ready(function() {
     $("#target1").css("color", "red");
     $("button").prop()
+    $("button").addClass("btn-primary")
+  
   });
 </script>
 
