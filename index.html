@@ -46,9 +46,9 @@
   <style>
 body {background-color:#1de9b6;}
 .content {
-  background-color: white ;
+  background-color: white;
   box-shadow: 5px 5px 5px 5px ;
-  margin: 20px;}
+  margin: 10px;}
 h2 {
   font-family: 'Lobster', cursive;
   padding: 20px;}
@@ -60,23 +60,24 @@ h2 {
 .brand-logo {padding: 10px;}
 #Website1 {
   text-align: center;
-  align-items: center;
-  margin-left: 10px;
-  width: 100%;}
+  align-items: stretch;
+  margin: 10px;
+  width: auto;
+  height: auto;}
 #Website2 {
   text-align: center;
-  align-items: center;
-  margin-left: 10px;
-  width: 100%;}
+  align-items:stretch;
+  margin: 10px;
+  width: auto;
+  height: auto;}
 .well{align-items: center;}
 .nav-wrapper{background-color: #0d47a1;}
-#footer{
+#footer {
     background-color: #0d47a1;
     color:#0d47a1;}
-#form{
-      margin: 20px;
-      padding: 20px;}
-.center{
+#form {
+      margin: 20px;}
+.center {
     margin: 0 auto !important;
     float: none !important;
     width: auto;
@@ -105,10 +106,10 @@ h3{color:#1de9b6;
     </p>
   </div>
 
-  <div id="Website1" class="row center">
+  <div id="Website1" class="">
     <div class="col s12 m7">
       <div class="card">
-        <div class="card-image">
+        <div class="card-image center-align">
           <img src="http://i.imgur.com/bRDUmZL.png">
           <span class="card-title">Website #1</span>
         </div>
@@ -125,10 +126,10 @@ h3{color:#1de9b6;
 
 
 
-<div id="Website2" class="row center">
+<div id="Website2" class=""> <!-- Class removed = row -->
     <div class="col s12 m7">
       <div class="card">
-        <div class="card-image">
+        <div class="card-image center-align">
           <img src="https://raw.githubusercontent.com/anjneyM/hello-world/master/Screenshot%20(34).png">
           <span class="card-title">Website #2</span>
         </div>
@@ -154,6 +155,7 @@ What do you want to say to me?:
     <br><br>
 <input type="submit" value="Send"class="btn btn-default">
 <input type="reset" value="Reset" class="btn btn-default">
+<br>
   <br>
 	  <br>
 	</form></div>
