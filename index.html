@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
@@ -9,113 +10,159 @@
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AAArdQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiAAACIREiIRIgAAIhESIhEiAAAiERIiESIAACIREiIRIgAAIhEREREiAAAiERERESIAACIREiIRIgAAIhESIhEiAAAiERERESIAACIhERESIgAAAiIiIiIgAAAAAAAAAAAAAAAAAAAAAAD//wAA4AcAAMADAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAwAMAAOAHAAD//wAA" rel="icon" type="image/x-icon" />
-</head>
-
-<body>
-  <!--Import jQuery before materialize.js-->
+<title>Anjney Mital</title>
+<!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-</body>
 
-<html>
 <!-- Compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" />
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-
+</head>
 <!--Do not change code above this line -->
-<!-- Seperator -->
-<nav>
-    <div class="nav-wrapper">
+  <header class="center" id="Header"><h2 class="heading">Hi!</h2>
+        <p id="bottom-text-header"> Welcome to my website!</p>
+    </header>
+
+<nav id="navbar" class="main-nav navbar-inverse navbar-fixed-top sticky">
+    <div class="nav-wrapper navbar-fixed-top">
       <a href="https://github.com/anjneyM" class="brand-logo" target="_blank" style="margin-left: 10px;">Anjney Mital
       </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#Info">Information</a></li>
-        <li><a href="#Website2">2nd Project</a></li>
-        <li><a href="#Website1">1st Project</a></li>
-        <li><a href="#End">Bottom</a></li>
-        <li><a href="#Header">Top</a>
+        <li><a class="nav-link" href="#Info">Information</a></li>
+        <li><a class="nav-link" href="#Website1">1st Project</a></li>
+        <li><a class="nav-link" href="#End">Bottom</a></li>
+        <li><a class="nav-link" href="#Header">Top</a>
         </li>
         <li><a href="#form">Contact Me</a></li>
-
       </ul>
     </div>
   </nav>
-  <title>Anjney Mital</title>
   <style>
-body {background-color:#1de9b6;}
-.content {
-  background-color: white;
-  box-shadow: 5px 5px 5px 5px ;
-  margin: 10px;}
+#bottom-text-header{
+    color: white;
+    font-size: 30px;}
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;}
+  #navbar{
+    height: 80px;
+    z-index: 150;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+#content {
+    margin: 0;
+    position: relative;
+    background-color:#ebedea;}
+  #Header {
+    background-color: #0d47a1;
+    height: 300px;
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    top: 0;}
+  #Info{
+   width:70%;
+   word-break:break-all;}
 h2 {
-  font-family: 'Lobster', cursive;
-  padding: 20px;}
+   font-family: 'Lobster', cursive;
+   color: white;}
 .sinfo {
-  font-size: 40px;
-  margin: 20px;
-  padding: 20px;}
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 10px;
+   font-size: 40px;
+   margin: 20px;
+   padding: 20px;
+   padding-top: 20px;}
 .form {margin: 20px;}
 .brand-logo {padding: 10px;}
 #Website1 {
-  text-align: center;
-  align-items: stretch;
-  margin: 10px;
-  width: auto;
-  height: auto;}
-#Website2 {
-  text-align: center;
-  align-items:stretch;
-  margin: 10px;
-  width: auto;
-  height: auto;}
-.well{align-items: center;}
-.nav-wrapper{background-color: #0d47a1;}
+   padding-top: 20px;
+   text-align: center;
+   margin: 10px;
+   width: 67.5%;
+   height: auto;
+   border-radius: 10px; }
+.well {align-items: center;}
+.nav-wrapper {background-color: #0d47a1;}
 #footer {
-    background-color: #0d47a1;
-    color:#0d47a1;
-    position:end;
-      width:100%;
-      bottom:0px;}
+  background-color: #0d47a1;
+  color:#0d47a1;
+  position:end;
+  width:100%;
+  bottom:0px;}
 #form {
-      margin: 10px;}
+  width:67.5%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 .center {
-    margin: 0 auto !important;
-    float: none !important;
-    width: auto;
-    display: block !important;}
+  margin: 0 auto !important;
+  float: none !important;
+  width: auto;
+  display: block !important;}
 .brand-logo{
-    font-family: 'Bungee Shade',cursive;
-    color:#1de9b6;}
-h3{color:#1de9b6;
-  font-family: 'Lobster', cursive;}
+  font-family: 'Bungee Shade',cursive;
+  color:#1de9b6;}
+h3{
+  color:#0d47a1;
+  font-family: 'Lobster', cursive;
+  padding-top:10px;}
 </style>
 
-<div id="Header" class="content well container center">
-  <h2 class="heading"><font color="#1de9b6">Hi!</font></h2>
-    <p class="flow-text">
+<script>
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        || location.hostname == this.hostname) {
 
-      <div id="Info" class="sinfo card hoverable container center" style="word-break:break-all;">
-		   I am a 14 year old Programmer!
-      <br> I can code in Python(2),Android,Arduino,HTML,CSS,jquery,Bash and also am well versed in computer hardware.
-      <ul>Points About Me:
-        <li>Foodie</li>
-          <li>Computer Builder<li>
-        <li>Gamer</li>
-             <li>Programmer</li>
-        <li>Aspiring Entrepreneur</li>
-    </ul>
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+var  mn = $(".main-nav");
+    mns = "main-nav-scrolled";
+    hdr = $('Header').height();
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdr ) {
+    mn.addClass(mns);
+  } else {
+    mn.removeClass(mns);
+  }
+});
+</script>
+<body class="main" id="content">
+     <p class="flow-text">
+      <div id="Info" class="sinfo card container center">
+       <h4>I'm Anjney Mital and I love Computers and everything about them!</h4>
+       <br>
+       I love to program and HTML and CSS are my favourites.
+      <ul>
+        <li>My Hobbies:</li>
+          <li>Reading</li>
+            <li>PC Building<li>
+                <li>Gaming</li>
+             <li>Programming</li>
+             <li>Arduino</li>
+      </ul>
     </p>
   </div>
 
-  <div id="Website1" class="">
+  <div id="Website1" class="center">
     <div class="col s12 m7">
       <div class="card">
         <div class="card-image center-align">
-          <img src="http://i.imgur.com/bRDUmZL.png">
+          <img src="http://i.imgur.com/bRDUmZL.png" alt="Website One">
           <span class="card-title">Website #1</span>
         </div>
         <div class="card-content">
@@ -128,42 +175,25 @@ h3{color:#1de9b6;
     </div>
   </div>
 
-
-
-
-<div id="Website2" class=""> <!-- Class removed = row -->
-    <div class="col s12 m7">
-      <div class="card">
-        <div class="card-image center-align">
-          <img src="https://raw.githubusercontent.com/anjneyM/hello-world/master/Screenshot%20(34).png">
-          <span class="card-title">Website #2</span>
-        </div>
-        <div class="card-content">
-          <p>This is my portfolio site.(The one you're currently viewing).</p>
-        </div>
-        <div class="card-action">
-          <a href="https://anjneym.github.io/hello-world/" target="_blank">Go to his work</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<div class="card form" id="form">
-<h3 >Get In Touch.</h3>
-  <form action="mailto:manjney@gmail.com" method="post" enctype="text/plain">
+<div class="card form center" id="form">
+  <h3 >Get In Touch.</h3>
+    <form action="mailto:manjney@gmail.com" method="post" enctype="text/plain">
     Name:<br>
-<input type="text" name="name">
-E-mail:<br>
-<input type="text" name="mail" required>
-What do you want to say to me?:
-<input type="text" name="comment" size="50" required>
+<input type="text" name="name" style="width:75%;">
+<br>
+E-mail:
+<br>
+<input type="text" name="mail" required style="width:75%;">
+<br>
+Your Message:
+<br>
+<input type="text" name="comment" size="50" required style="width:75%">
     <br><br>
-<input type="submit" value="Send"class="btn btn-default"style="margin-bottom: 20px">
+<input type="submit" value="Send" class="btn btn-default" style="margin-bottom: 20px">
 <input type="reset" value="Reset" class="btn btn-default" style="margin-bottom: 20px">
 </form></div>
 <br>
 
-</div>
 <footer class="page-footer" id="footer">
   <div id="End" class="container">
     <div class="row">
@@ -194,4 +224,5 @@ What do you want to say to me?:
     </div>
   </div>
 </footer>
+
 </html>
